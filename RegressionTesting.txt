@@ -1,0 +1,27 @@
+What is Regressio Testing?
+------------------------------------> 
+When Developer has build one module and tester is testing it further ahead bug is reported. 
+Now tester will report bug to developer, developer will work on that module and try to debug that module. 
+
+Now developer will create new module for same feature with and maybe with new updates. 
+So the new module created should not affect the previous module and that testing is known as regression testing.
+
+Testing Conducted on modified builds to make sure there will not be impact on exisiting functionality because of changes like 
+adding/deleting/modifying features. 
+
+#3 Types of regression testing: 
+---------------------------------------->
+Unit testing:
+Testing only the modifications/changes done by developer.
+
+Regional Regression Testing:
+Testing the modified module along with impacted modules. 
+Impact Analysis meeting conducts to identify impacted modules with QA and Dev
+
+Full Regression: ) MOST PREFERRED ( 
+Reason: When bug is reported and fixed than mostly developer has changed entire code so to test the entire module of app is better choice. 
+Testing main feature and remaining module of the application 
+Eg: Dev has created many modules, instead of identifying impacted modules, 
+we perform one round of testing. 
+
+

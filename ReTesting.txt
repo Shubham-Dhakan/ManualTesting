@@ -1,0 +1,11 @@
+What is Re-Testing?
+---------------------------->
+Testing conducted on the fixed bug by developer is called as Re-Testing. 
+Tester closes the bug and if re-opens tester sends the bug to developer. 
+
+Example:
+----------> 
+- Build 1.0 was released. Test team found some defects (Defect id 1.0.1, 1.0.2) and posted 
+- Build 1.1 was released, now testing id 1.0.1, 1.0.2 is retesting 
+
+ 

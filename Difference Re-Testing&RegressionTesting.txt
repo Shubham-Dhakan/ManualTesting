@@ -1,0 +1,14 @@
+Example of Re-Testing vs Regression Testing: 
+-------------------------------------------------> 
+An application Under Test has three modules namely:
+
+Admin
+Purchase 
+Finance (It is dependent on Purchase Module)
+
+If a tester finds bug in purchase module and reports it,
+dev fixes the bug and now tester will test that bug and module (Re-Test Example)
+
+But also finance is dependent on purchase module so we have to test that module too (Regional Regression Testing)
+
+So the GOLD tip is to perform Full Regression Testing in this kind of Situation. 
